@@ -78,7 +78,7 @@ table {
 	margin-top: .75em;
 }
 
-.links li {
+.content .links li {
 	display:inline-block;
 	color: #4c5058;
 	font-weight: 400;
@@ -89,7 +89,12 @@ table {
 	letter-spacing: 0.03em;
 }
 
-.links li:hover{
+.content .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.content .links li:hover{
 	cursor: pointer;
 	color: #333333;
 }
@@ -98,7 +103,3 @@ table {
 outline: none;
 }
 
-.links .active {
-	color: #4c5058;
-	font-weight: 500;
-}
